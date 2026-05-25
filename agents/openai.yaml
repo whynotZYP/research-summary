@@ -6,3 +6,17 @@ interface:
 
 policy:
   allow_implicit_invocation: true
+
+examples:
+  - prompt: "写总结笔记"
+    description: "启动科研技术总结工作流，按6阶段产出4项交付物"
+  - prompt: "我的MATLAB仿真做完了，帮我整理成文档"
+    description: "针对仿真/实验类项目的文档整理"
+  - prompt: "课程设计做完了，写个技术总结"
+    description: "针对课程设计的文档产出"
+
+constraints:
+  - "必须按6个阶段顺序推进，不许跳过任何阶段"
+  - "每次只问1-3个问题，不要一次抛太多"
+  - "验收的唯一标准：他人可独立复现项目"
+  - "不要用于日常聊天总结、读书笔记等非技术场景"
