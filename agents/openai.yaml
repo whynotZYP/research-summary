@@ -1,0 +1,8 @@
+interface:
+  display_name: "科研项目技术总结笔记生成器"
+  short_description: "帮你按导师要求产出可复现的完整技术文档包，所有专业通用"
+  brand_color: "#2563EB"
+  default_prompt: "写总结笔记"
+
+policy:
+  allow_implicit_invocation: true
